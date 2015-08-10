@@ -1,7 +1,7 @@
 # Test
 Image Of Lord Ganesha
 
-![Ganpati image](1.jpg)
+![Ganpati image](https://github.com/Randive/Test/blob/develop/ganesha.jpeg)
 
 
 This link sent to google.com  [Google.com](http://google.com)
