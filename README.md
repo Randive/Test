@@ -30,5 +30,11 @@ No  |  Name
 3   |Rupali
 
 #
+First Header | Second Header | Third Header
+:----------- | :-----------: | -----------:
+||center     
+left         | Center        | Right
+first        | Second        | Third
+
 
 
