@@ -1,4 +1,5 @@
-    1  vi /etc/hostname 
+    
+`   1  vi /etc/hostname 
     2  vi /etc/hosts
     3  subscription-manager repos --list
     4  subscription-manager repos --enable rhel-6-server-optional-rpms
