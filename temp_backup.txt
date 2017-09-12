@@ -1,0 +1,638 @@
+    1  vi /etc/hostname 
+    2  vi /etc/hosts
+    3  subscription-manager repos --list
+    4  subscription-manager repos --enable rhel-6-server-optional-rpms
+    5  sudo rpm -ivh https://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
+    6  sudo yum install puppet
+    7  cd /etc/puppet/
+    8  ls
+    9  cat puppet.conf 
+   10  hostnamectl status
+   11  hostnamectl set-hostname puppetrhelagent
+   12  cat /etc/hostname 
+   13  cat /etc/hosts
+   14  hostnamectl status
+   15  cat /etc/hostname 
+   16  hostnamectl set-hostname puppetrhelagent --static
+   17  hostnamectl status
+   18  cat /etc/hosts
+   19  nano /etc/puppet/puppet.conf 
+   20  vi /etc/puppet/puppet.conf 
+   21  cat /etc/hosts
+   22  hostnamectl status
+   23  nano /etc/hosts
+   24  vi /etc/hosts
+   25  vi /etc/sysconfig/network
+   26  vi /etc/cloud/cloud.cfg
+   27  cat /etc/sysconfig/network
+   28  cat /etc/cloud/cloud.cfg 
+   29  sudo reboot
+   30  cd /etc/init.d/
+   31  ls
+   32  cd /etc/puppet/
+   33  ls
+   34  cat puppet.conf 
+   35  cd
+   36  service puppet start
+   37  service puppet status
+   38  puppet agent -t
+   39  history
+   40  git --version
+   41  java --version
+   42  java -version
+   43  java
+   44  service puppet status
+   45  service puppet stop
+   46  service puppet status
+   47  cat /etc/puppet/puppet.conf 
+   48  service puppet status
+   49  service puppet start
+   50  service puppet status
+   51  puppet agent -t
+   52  git --version
+   53  git config.username
+   54  git config user.name
+   55  git config user.email
+   56  service puppet stop
+   57  service puppet start
+   58  puppet agent -t
+   59  cd /var/lib/puppet/state/agent_catalog_run.lock
+   60  cd /var/lib/puppet/state/
+   61  ls
+   62  puppet agent -t
+   63  java
+   64  java -version
+   65  service puppet status
+   66  service puppet stop
+   67  service puppet status
+   68  service puppet stop
+   69  service puppet status
+   70  puppet service status
+   71  service puppet status
+   72  ls
+   73  service puppet status
+   74  java -version
+   75  service puppet status
+   76  service puppet start
+   77  service puppet status
+   78  puppet agent -t
+   79  cd /opt/
+   80  ls
+   81  cd tomcat/
+   82  ls
+   83  cd ..
+   84  cd 
+   85  service puppet status
+   86  puppet agent -t
+   87  cd /opt/
+   88  ls
+   89  cd
+   90  cd /opt/tomcat/
+   91  ls
+   92  cd 
+   93  netstat -ntpl
+   94  java -version
+   95  ls
+   96  cd
+   97  service puppet status
+   98  puppet agent -t
+   99  service puppet status
+  100  netstat -ntpl
+  101  ls
+  102  cd
+  103  ls
+  104  service puppet status
+  105  puppet agent -t
+  106  service puppet status
+  107  service puppet start
+  108  service puppet status
+  109  ls
+  110  cd 
+  111  puppet agent -t
+  112  ls
+  113  puppet agent -t
+  114  service puppet status
+  115  netstat -ntpl
+  116  ifconfig
+  117  service tomcat status
+  118  cd /opt/tomcat/
+  119  ls
+  120  cd logs/
+  121  ls
+  122  cat catalina.out 
+  123  cd ..
+  124  ls
+  125  cd bin/
+  126  sh startup.sh 
+  127  netstat -ntpl
+  128  cd ..
+  129  ls
+  130  cd logs/
+  131  ls
+  132  cat catalina.out 
+  133  cd
+  134  service puppet stop
+  135  clear
+  136  service puppet status
+  137  git --version
+  138  git config user.name
+  139  git config user.email
+  140  service puppet status
+  141  service puppet start
+  142  puppet agent -t
+  143  git --version
+  144  git config user.name
+  145  service puppet status
+  146  cd /var/log/puppet
+  147  ls
+  148  cd /var/log/
+  149  ls
+  150  cd puppet/
+  151  ls
+  152  cd
+  153  puppet agent -t
+  154  git --version
+  155  puppet agent -t
+  156  git --version
+  157  puppet agent -t
+  158  git --version
+  159  yum remove git
+  160  git --version
+  161  puppet agent -t
+  162  git --version
+  163  puppet agent -t
+  164  git --version
+  165  git config user.name
+  166  java -version
+  167  puppet agent -t
+  168  java -version
+  169  yum uninstall java
+  170  yum remove java
+  171  java -version
+  172  yum remove java
+  173  java -version
+  174  yum remove openjdk version "1.8.0_111"
+  175  yum remove openjdk "1.8.0_111"
+  176  yum remove openjdk
+  177  java -version
+  178  java
+  179  cd
+  180  java -version
+  181   yum remove java-1.8.0_111-openjdk.x86_64
+  182  java -version
+  183  locate java
+  184  locate openjdk
+  185  yum install java
+  186  locate openjdk
+  187  yum remove java
+  188  java -version
+  189  yum remove java
+  190  java
+  191  javac
+  192  find java
+  193  clear
+  194  whereis java
+  195  yum remove java
+  196  java -v
+  197  java -
+  198  java -version
+  199  yum remove java*
+  200  java -version
+  201  git --version
+  202  yum remove git*
+  203  puppet agent -t
+  204  java -v
+  205  java -version
+  206  git --version
+  207  git config user.name
+  208  yum remove git*
+  209  yum remove java*
+  210  java -version
+  211  service puppet stop
+  212  service puppet status
+  213  service puppet start
+  214  service puppet status
+  215  puppet agent -t
+  216  cat /var/lib/puppet/state/agent_catalog_run.lock 
+  217  puppet agent -t
+  218  netstat -ntpl
+  219  puppet agent -t
+  220  cd /var/log/
+  221  ls
+  222  cd puppet/
+  223  ls
+  224  cd
+  225  puppet agent -t
+  226  service puppet status
+  227  cd /opt/
+  228  ls
+  229  cd tomcat/
+  230  ls
+  231  cd webapps/
+  232  ls
+  233  cd ../
+  234  ls
+  235  cd ../bin
+  236  cd bin/
+  237  sh startup.sh 
+  238  service puppet status
+  239  cd /opt/
+  240  ls
+  241  netstat -ntpl
+  242  sudo service jenkins stop
+  243  netstat -ntpl
+  244  cd tomcat/
+  245  cd bin
+  246  sh startup.sh
+  247  netstat -ntpl
+  248  cd ../webapps/
+  249  ls
+  250  cd
+  251  service puppet start
+  252  puppet agent -t
+  253  cd /opt/
+  254  ls
+  255  cd tomcat/
+  256  ls
+  257  cd
+  258  cd /opt/
+  259  rm -rf tomcat
+  260  ls
+  261  netstat -ntpl
+  262  service tomcat stop
+  263  yum remove tomcat*
+  264  yum remove tomcat
+  265  netstat -ntpl
+  266  ps -ef|grep tomcat
+  267  kill 2248
+  268  ps -ef|grep tomcat
+  269  cd
+  270  ls
+  271  netstat -ntpl
+  272  puppet agent -t
+  273  netstat -ntpl
+  274  service puppet stop
+  275  netstat -ntpl
+  276  cd /opt/tomcat/
+  277  cd bin
+  278  sh shutdown.sh
+  279  netstat -ntpl
+  280  cd ../
+  281  cd ..
+  282  rm -rf tomcat
+  283  ps -ef | grep tomcat
+  284  ls
+  285  cd 
+  286  service puppet start
+  287  puppet agent -t
+  288  cd /var/lib/puppet/state/
+  289  ls
+  290  cd
+  291  cd /opt/
+  292  ls
+  293  service puppet stop
+  294  service puppet status
+  295  cd /opt/
+  296  cd tomcat/
+  297  ls
+  298  cd webapps/
+  299  ls
+  300  ls -la
+  301  ls
+  302  rm -rf jenkins.war 
+  303  cd
+  304  service puppet stop
+  305  cd 
+  306  service puppet status
+  307  netstat -ntpl
+  308  service puppet start
+  309  service puppet status
+  310  puppet agent -t
+  311  service puppet status
+  312  puppet agent -t
+  313  ls
+  314  cd /etc/puppet/
+  315  ls
+  316  cd
+  317  service puppet status
+  318  service puppet start
+  319  service puppet status
+  320  puppet agent -t
+  321  service puppet status
+  322  puppet agent -t
+  323  cd /opt/tomcat/webapps/
+  324  ls
+  325  puppet agent -t
+  326  ls
+  327  cd temp
+  328  ls
+  329  cd jboss-eap-quickstarts-7.0.0.GA/
+  330  ls
+  331  cd
+  332  cd ..
+  333  cd 
+  334  cd /opt/tomcat/
+  335  cd webapps/
+  336  ls
+  337  rm -rf temp.war temp
+  338  ls
+  339  cd
+  340  ls
+  341  service puppet status
+  342  puppet agent -t
+  343  netstat -ntpl
+  344  ps -ef | grep apache
+  345  cd /etc/
+  346  ls
+  347  cd
+  348  service httpd status
+  349  service httpd stop
+  350  service httpd status
+  351  ps -ef | grep apache
+  352  netstat -ntpl
+  353  service httpd start
+  354  ps -ef |grep httpd
+  355  service httpd stop
+  356  ps -ef |grep httpd
+  357  service puppet stop
+  358  yum remove httpd
+  359  ps -ef |grep httpd
+  360  service httpd status
+  361  ps -ef |grep httpd
+  362  service httpd start
+  363  service puppet start
+  364  service puppet status
+  365  puppet agent -t
+  366  service httpd status
+  367  service httpd stop
+  368  apachectl start
+  369  service httpd status
+  370  apachectl stop
+  371  ls
+  372  service puppet status
+  373  service puppet stop
+  374  service puppet start
+  375  puppet agent -t
+  376  cd /tmp/
+  377  ls
+  378  cat welcomefilenew 
+  379  cd 
+  380  puppet agent -t
+  381  cd /tmp/
+  382  ls
+  383  puppet agent -t
+  384  ls
+  385  puppet agent -t
+  386  ls
+  387  puppet agent -t --noop
+  388  service puppet status
+  389  ls
+  390  puppet agent -t --noop
+  391  puppet agent -t
+  392  puppet agent -t --noop
+  393  ls
+  394  puppet agent -t
+  395  ls
+  396  cd
+  397  java -version
+  398  service puppet stop
+  399  yum remove java*
+  400  puppet agent -t --noop
+  401  service puppet status
+  402  puppet agent -t
+  403  java -version
+  404  puppet agent -t --noop
+  405  puppet agent -t
+  406  java -version
+  407  puppet agent -t --noop
+  408  puppet agent -t 
+  409  java -version
+  410  puppet agent -t 
+  411  java -version
+  412  puppet agent -t 
+  413  java -version
+  414  puppet agent -t 
+  415  java -version
+  416  puppet agent -t 
+  417  java -version
+  418  puppet agent -t 
+  419  java -version
+  420  netstat -ntpl
+  421  service puppet status
+  422  netstat -ntpl
+  423  cd /opt/tomcat/bin/
+  424  sh shutdown.sh
+  425  cd ../tomcat
+  426  ls
+  427  cd ../
+  428  ls
+  429  rm -rf tomcat/
+  430  ls
+  431  cd 
+  432  java -version
+  433  service puppet status
+  434  service puppet start
+  435  puppet agent -t
+  436  rm /var/lib/puppet/state/agent_catalog_run.lock
+  437  puppet agent -t
+  438  ls
+  439  netstat -ntpl
+  440  cd /opt/tomcat/
+  441  cd webapps/
+  442  ls
+  443  rm -rf hello.war 
+  444  ls
+  445  rm -rf hello
+  446  ls
+  447  netstat -ntpl
+  448  service puppet status
+  449  cd /opt/tomcat/
+  450  ls
+  451  cd webapps/
+  452  ls
+  453  rm -rf hello.war hello
+  454  ls
+  455  netstat -ntpl
+  456  service puppet status
+  457  service puppet start
+  458  service puppet status
+  459  cd 
+  460  puppet agent -t
+  461  rm /var/lib/puppet/state/agent_catalog_run.lock
+  462  service puppet status
+  463  puppet agent -t
+  464  netstat -ntpl
+  465  ps -ef |grep jenkins
+  466  service jenkins stop
+  467  ps -ef |grep jenkins
+  468  netstat -ntpl
+  469  cd /opt/tomcat/
+  470  ls
+  471  cd webapps/
+  472  ls
+  473  cd
+  474  cd bin
+  475  cd /opt/
+  476  ls
+  477  rm -rf tomcat
+  478  ls
+  479  yum remove tomcat
+  480  cd
+  481  service jenkins status
+  482  puppet agent -t
+  483  cd /opt/
+  484  cd tomcat/
+  485  ls
+  486  netstat -ntpl
+  487  cd bin
+  488  sh startup.sh 
+  489  netstat -ntpl
+  490  ps -ef | grep tomcat
+  491  netstat -ntpl
+  492  service iptables status
+  493  service iptable status
+  494  ls
+  495  sh shutdown.sh 
+  496  java -version
+  497  sh startup.sh 
+  498  cd 
+  499  ifconfig
+  500  sudo mkdir -p /mnt/nfs/root/Wardir
+  501  sudo mount 172.31.21.14:/root/Wardir /mnt/nfs/root/Wardir
+  502  cd /mnt/nfs
+  503  ls
+  504  cd root/Wardir/
+  505  ls
+  506  cd
+  507  sudo mount 172.31.21.14:/root/Wardir /mnt/nfs/root/Wardir
+  508  syslog -dmesg
+  509  find sysylog
+  510  ll syslog
+  511  cd /var/
+  512  ls
+  513  cd log
+  514  ls
+  515  yum install nfs-utils nfs-utils-lib
+  516  cd
+  517  sudo mount 172.31.21.14:/root/Wardir /mnt/nfs/root/Wardir
+  518  mount 172.31.21.14:/root/Wardir /mnt/nfs/root/Wardir
+  519  df -h
+  520  cd /mnt/nfs/root/Wardir
+  521  ls
+  522  cd 
+  523  service puppet status
+  524  puppet agent -t
+  525  service puppet stop
+  526  history
+  527  ls
+  528  mount -t nfs
+  529  cd /mnt/nfs/root/Wardir
+  530  ls -l
+  531  cat /etc/puppet/puppet.conf 
+  532  history
+  533  cat /etc/puppet/puppet.conf 
+  534  cd /etc/puppet/
+  535  ls
+  536  cat puppet.conf 
+  537  [root@puppetrhelagent puppet]# ls
+  538  auth.conf  modules  puppet.conf
+  539  [root@puppetrhelagent puppet]# cat puppet.conf
+  540  [main]
+  541      # The Puppet log directory.
+  542      # The default value is '$vardir/log'.
+  543      logdir = /var/log/puppet
+  544      # Where Puppet PID files are kept.
+  545      # The default value is '$vardir/run'.
+  546      rundir = /var/run/puppet
+  547      # Where SSL certificates are kept.
+  548      # The default value is '$confdir/ssl'.
+  549      ssldir = $vardir/ssl
+  550  [agent]
+  551      # The file in which puppetd stores a list of the classes
+  552      # associated with the retrieved configuratiion.  Can be loaded in
+  553      # the separate ``puppet`` executable using the ``--loadclasses``
+  554      # option.
+  555      # The default value is '$confdir/classes.txt'.
+  556      classfile = $vardir/classes.txt
+  557      # Where puppetd caches the local configuration.  An
+  558      # extension indicating the cache format is added automatically.
+  559      # The default value is '$confdir/localconfig'.
+  560      localconfig = $vardir/localconfig
+  561      server = puppetmaster
+  562  [root@puppetrhelagent puppet]#
+  563  clear
+  564  ls
+  565  cat puppet.conf 
+  566  [root@puppetrhelagent puppet]# ls
+  567  auth.conf  modules  puppet.conf
+  568  [root@puppetrhelagent puppet]# cat puppet.conf
+  569  [main]
+  570      # The Puppet log directory.
+  571      # The default value is '$vardir/log'.
+  572      logdir = /var/log/puppet
+  573      # Where Puppet PID files are kept.
+  574      # The default value is '$vardir/run'.
+  575      rundir = /var/run/puppet
+  576      # Where SSL certificates are kept.
+  577      # The default value is '$confdir/ssl'.
+  578      ssldir = $vardir/ssl
+  579  [agent]
+  580      # The file in which puppetd stores a list of the classes
+  581      # associated with the retrieved configuratiion.  Can be loaded in
+  582      # the separate ``puppet`` executable using the ``--loadclasses``
+  583      # option.
+  584      # The default value is '$confdir/classes.txt'.
+  585      classfile = $vardir/classes.txt
+  586      # Where puppetd caches the local configuration.  An
+  587      # extension indicating the cache format is added automatically.
+  588      # The default value is '$confdir/localconfig'.
+  589      localconfig = $vardir/localconfig
+  590      server = puppetmaster
+  591  [root@puppetrhelagent puppet]
+  592  clear
+  593  ls
+  594  cat puppet.conf 
+  595  puppet agent -t
+  596  exit
+  597  history
+  598  exit 
+  599  history
+  600  exit
+  601  puppet agent -t
+  602  cat /etc/puppet/puppet.conf 
+  603  puppet agent -t
+  604  exit
+  605  puppet agent -t
+  606  service puppet stop
+  607  find /var/lib/puppet/ssl -name puppetrhelagent.us-west-2.compute.internal.pem -delete 
+  608  service puppet start
+  609  sudo puppet gent -t
+  610  sudo puppet agent -t
+  611  exit
+  612  service puppet status
+  613  cat /etc/puppet/puppet.conf 
+  614  service puppet start
+  615  service puppet status
+  616  puppet agent -t
+  617  cd /usr/bin
+  618  ls
+  619  git --version
+  620  git config user.name
+  621  service puppet status
+  622  service puppet start
+  623  ll
+  624  puppet agent -t
+  625  cd /var/
+  626  ls
+  627  cd tmp/
+  628  ls
+  629  puppet agent -t
+  630  ll
+  631  puppet agent -t
+  632  ll
+  633  cd test
+  634  ll
+  635  exit
+  636  ls
+  637  exit
+  638  history >> temp_backup.txt
